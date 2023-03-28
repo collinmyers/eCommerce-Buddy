@@ -11,6 +11,7 @@ Tracks prices of products from Amazon, Sams Club, Target, and Walmart.
 
 
 **REQUIREMENTS** 
+- NodeJS (built using 18.12.0)
 - The config.json will need to be configured before use
     - For *repeatWebhook* either choose **on** or **off**, if on is chosen, webhook will send 3 times over 90 seconds before returning to monitoring
     - For *webhook* input the discord webhook url  
